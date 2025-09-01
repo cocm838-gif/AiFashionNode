@@ -11,8 +11,8 @@
       "description": "Local server"
     },
     {
-      "url": "https://351894fb207d.ngrok-free.app",
-      "description": "ngrok server"
+      "url": "https://ai-fashion-node.vercel.app/",
+      "description": "live server"
     }
   ],
   "tags": [],
