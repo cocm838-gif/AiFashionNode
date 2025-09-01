@@ -1,0 +1,35 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "AiFassion API",
+    "version": "1.0.0",
+    "description": "API documentation for AiFassion"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local server"
+    },
+    {
+      "url": "https://351894fb207d.ngrok-free.app",
+      "description": "ngrok server"
+    }
+  ],
+  "tags": [],
+  "paths": {},
+  "components": {
+    "schemas": {},
+    "securitySchemes": {
+       "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ]
+}
